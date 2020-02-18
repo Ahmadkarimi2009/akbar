@@ -106,7 +106,7 @@
     
 
 
-    @include('layout.footersection')
+    @include('layout.footersection_admin')
     <script src="{{asset('assets/js/vendor/sweetalert.min.js')}}"></script>
     <script type="text/javascript">
 

@@ -95,19 +95,6 @@
 
   <body class="">
     <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                <!-- 728*90 -->
-                <ins class="adsbygoogle"
-                    style="display:inline-block;width:100%;height:90px"
-                    data-ad-client="ca-pub-8480911180475311"
-                    data-ad-slot="3512118492"></ins>
-                <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
-            </div>
-        </div>
         <div class="row mt-3 mb-3">
             <form class="form-signin"  method="POST" action="{{ route('login') }}">
                 @csrf
@@ -156,19 +143,6 @@
                     <button class="btn btn-lg btn-success btn-block mt-3" type="submit">Sign in</button>
                 </fieldset>
             </form>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                <!-- 728*90 -->
-                <ins class="adsbygoogle"
-                    style="display:inline-block;width:100%;height:90px"
-                    data-ad-client="ca-pub-8480911180475311"
-                    data-ad-slot="3512118492"></ins>
-                <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
-            </div>
         </div>
     </div>
     

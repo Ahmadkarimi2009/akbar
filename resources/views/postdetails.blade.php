@@ -3,7 +3,7 @@
     <link rel="stylesheet" href="{{asset('assets/css/nice-select.css')}}">
     <!-- You can use Open Graph tags to customize link previews.
     Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
-    <meta property="og:url"           content="https://www.karmondana.com/blog/{{$post->id}}" />
+    <meta property="og:url"           content="https://karmondana.com/blog/{{$post->id}}" />
     <meta property="og:type"          content="website" />
     <meta property="og:title"         content="{{$post->title}}" />
     <meta property="og:description"   content="{{$post->title}}" />

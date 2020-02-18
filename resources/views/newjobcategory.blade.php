@@ -31,5 +31,5 @@
     
 
 
-    @include('layout.footersection')
+    @include('layout.footersection_admin')
     @include('layout.sessionmessage')

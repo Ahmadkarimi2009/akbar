@@ -4,7 +4,7 @@
     <!-- You can use Open Graph tags to customize link previews.
     Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
     @if(isset($scholarship))
-      <meta property="og:url"           content="https://www.karmondana.com/scholarship/{{$scholarship->id}}" />
+      <meta property="og:url"           content="https://karmondana.com/scholarship/{{$scholarship->id}}" />
       <meta property="og:type"          content="website" />
       <meta property="og:title"         content="{{$scholarship->name}}" />
       <meta property="og:description"   content="{{$scholarship->name}}" />

@@ -2,7 +2,6 @@
  <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script data-ad-client="ca-pub-8480911180475311" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
     <title>New Company</title>
 
@@ -191,19 +190,6 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-12">
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                <!-- 728*90 -->
-                <ins class="adsbygoogle"
-                    style="display:inline-block;width:100%;height:90px"
-                    data-ad-client="ca-pub-8480911180475311"
-                    data-ad-slot="3512118492"></ins>
-                <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
-            </div>
-        </div>
-        <div class="row">
             <form class="form-signin"  method="POST" action="{{route('company.store')}}">
                 @csrf
                 <div class="logo-area mb-4 mt-5 text-center">
@@ -323,19 +309,6 @@
 
                 </fieldset>
             </form>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                <!-- 728*90 -->
-                <ins class="adsbygoogle"
-                    style="display:inline-block;width:100%;height:90px"
-                    data-ad-client="ca-pub-8480911180475311"
-                    data-ad-slot="3512118492"></ins>
-                <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
-            </div>
         </div>
     </div>
     

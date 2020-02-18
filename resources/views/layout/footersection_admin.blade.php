@@ -2,20 +2,6 @@
 <footer class="footer-area section-padding">
             <div class="footer-widget">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                            <ins class="adsbygoogle"
-                                style="display:block"
-                                data-ad-format="fluid"
-                                data-ad-layout-key="-gv-9+1i-2s+2u"
-                                data-ad-client="ca-pub-8480911180475311"
-                                data-ad-slot="5883432284"></ins>
-                            <script>
-                                (adsbygoogle = window.adsbygoogle || []).push({});
-                            </script>
-                        </div>
-                    </div>
                     <div class="row mt-3">
                         <div class="col-xl-2 col-lg-2">
                             <div class="single-widget-home mb-5 mb-lg-0">

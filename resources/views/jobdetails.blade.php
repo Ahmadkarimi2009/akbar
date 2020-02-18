@@ -3,7 +3,7 @@
     <!-- You can use Open Graph tags to customize link previews.
     Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
     @if(isset($job[0]))
-        <meta property="og:url"           content="https://www.karmondana.com/jobs/{{$job[0]->id}}" />
+        <meta property="og:url"           content="https://karmondana.com/jobs/{{$job[0]->id}}" />
         <meta property="og:type"          content="website" />
         <meta property="og:title"         content="{{$job[0]->title}}" />
         <meta property="og:description"   content="{{$job[0]->title}}" />

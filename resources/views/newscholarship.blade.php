@@ -436,7 +436,7 @@
     
 
 
-    @include('layout.footersection')
+    @include('layout.footersection_admin')
     <script src="{{asset('assets/js/vendor/sweetalert.min.js')}}"></script>
     <script src="{{asset('assets/js/vendor/selectize.min.js')}}"></script>
     <script src="{{asset('assets/js/vendor/trumbowyg.min.js')}}"></script>
