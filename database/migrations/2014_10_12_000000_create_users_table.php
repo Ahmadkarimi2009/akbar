@@ -27,30 +27,30 @@ class CreateUsersTable extends Migration
 
         DB::table('users')->insert(
             array(
-                'name'=>'Apple',
-                'email' => "apple@gmail.com",
+                'name'=>'Test Company',
+                'email' => "test_company@gmail.com",
                 'email_verified_at' => date('Y-m-d H:i:s'),
-                'password'=> bcrypt('apple'),
+                'password'=> bcrypt('testcompany123'),
                 'avatar'=> 'assets/avatars/company.png',
                 'usertype'=> 2
             )
         );
         DB::table('users')->insert(
             array(
-                'name'=>'Ahmad',
-                'email' => "ahmad@gmail.com",
+                'name'=>'Test User',
+                'email' => "test_user@example.com",
                 'email_verified_at' => date('Y-m-d H:i:s'),
-                'password'=> bcrypt('ahmad'),
+                'password'=> bcrypt('testuser123'),
                 'avatar'=> 'assets/avatars/user.jpg',
                 'usertype'=> 3
             )
         );
         DB::table('users')->insert(
             array(
-                'name'=>'Fattah',
-                'email' => "fkazimi5@gmail.com",
+                'name'=>'Admin',
+                'email' => "admin@example.com",
                 'email_verified_at' => date('Y-m-d H:i:s'),
-                'password'=> bcrypt('applicationmis'),
+                'password'=> bcrypt('admin123'),
                 'avatar'=> 'assets/avatars/user.jpg',
                 'usertype'=> 1
             )

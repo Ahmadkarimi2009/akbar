@@ -104,7 +104,7 @@
                 <div class="col-md-12">
                     <div class="input-group-icon mt-3">
                         <label class="text-left">{{ __('E-Mail Address') }}<span class="float-right">*</span></label>
-                        <input type="text" name="email" placeholder="Email Adress."   required="" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }} mr-2" autocomplete="off">
+                        <input type="text" name="email" placeholder="admin@example.com"   required="" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }} mr-2" autocomplete="off">
                         @if ($errors->has('email'))
                             <span class="invalid-feedback" role="alert">
                                 <strong>{{ $errors->first('email') }}</strong>
@@ -118,7 +118,7 @@
                 <div class="col-md-12">
                     <div class="input-group-icon mt-3">
                         <label class="text-left">{{ __('Password') }}<span class="float-right">*</span></label>
-                        <input type="password" name="password" placeholder="eg. www.apple.com"   required="" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }} mr-2" autocomplete="off">
+                        <input type="password" name="password" placeholder="admin123"   required="" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }} mr-2" autocomplete="off">
                         @if ($errors->has('password'))
                             <span class="invalid-feedback" role="alert">
                                 <strong>{{ $errors->first('password') }}</strong>
