@@ -1520,13 +1520,6 @@
             //     });
             alert(name);
         }
-    
-// function editnews(id){
-//             alert({!!$posts[0]->body!!});
-//             // $()
-//             // $('#modalforeditingnewsbtn').click();
-
-// }
 
 
         $('.storybody').each(function(){
